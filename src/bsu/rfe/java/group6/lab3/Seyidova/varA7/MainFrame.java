@@ -56,7 +56,7 @@ import javax.swing.*;
         Action aboutAuthorAction = new AbstractAction("О программе") {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(MainFrame.this,"Сейидова Махым \2курс \6группа", "О программе", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(MainFrame.this,"Сейидова Махым \n2курс \n6группа", "О программе", JOptionPane.INFORMATION_MESSAGE);
             }
         };
         showAuthorInfoMenuItem = aboutMenu.add(aboutAuthorAction);
